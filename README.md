@@ -17,7 +17,7 @@ The Live link can be found here:
 
 This is the app's Layout, which features a highlighted green logo, a slider bar, where the user slides their fingers to choose how many characters they want to generate their password, and a yellow button, where they activate the password generator.
 
-  ![logo](https://user-images.githubusercontent.com/96269648/187067848-c3f3fe61-3557-4989-8ab5-39be71ff13e1.png)
+ ![img5](https://user-images.githubusercontent.com/96269648/210232469-887e0364-d25d-4fc7-abe3-d6cf04d72cce.png)
     
   - ### The Slider bar
 
