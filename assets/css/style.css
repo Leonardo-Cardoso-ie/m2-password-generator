@@ -17,3 +17,38 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+/* style logo*/
+
+.logo {
+
+    
+    max-width: 200px;
+    margin-bottom: 24px;
+}
+
+/* Style class and spans */
+
+.container-input {
+
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span {
+
+    color: #fff;
+    font-size: 22px;
+}
+
+.slider {
+
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #dfdfdf;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+
+}
