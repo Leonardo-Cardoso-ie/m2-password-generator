@@ -43,7 +43,6 @@ body {
 
 .slider {
 
-    -webkit-appearance: none;
     width: 100%;
     border-radius: 5px;
     background: #dfdfdf;
@@ -54,7 +53,8 @@ body {
 }
 
 .button-cta {
-
+   
+    -webkit-appearance: none;
     height: 40px;
     background-color: #3eb72b;
     border: 0;

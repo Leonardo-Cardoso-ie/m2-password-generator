@@ -11,7 +11,7 @@ let containerPassword = document.querySelector("#container-password");
 /**
  * Characters
  */
-let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@-_$^&?><";
+let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@";
 let newPassword = "";
 
 sizePassword.innerHTML = sliderElement.value;
@@ -19,7 +19,7 @@ sizePassword.innerHTML = sliderElement.value;
 /**
  * character count when swiping the bar
  */
-slider.oninput = function () {
+slider.oninput = function() {
     sizePassword.innerHTML = this.value;
 }
 
@@ -30,10 +30,22 @@ slider.oninput = function () {
 function generatePassword() {
 
     let pass = "";
-
-    for (let i = 0, n = charset.length; i < sliderElement.value; ++i) {
+    for (let i = 0, n = charset.length; i < sliderElement.value; ++i){
        /* generating an integer in math floor, generating a random number in math random */
         pass += charset.charAt(Math.floor(Math.random() * n));
-
     }
+
+
+    containerPassword.classList.remove("hide");
+    password.innerHTML = pass;
+    newPassword = pass;
+}
+/* function copy to clipboard*/
+function copyPassword() {
+    navigator.clipboard.writeText(newPassword);
+    alert("Password copied successfully!");
+
+}
+
+
 
