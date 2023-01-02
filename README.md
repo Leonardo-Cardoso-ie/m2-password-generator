@@ -5,7 +5,7 @@ The random password generator is a software program written in HTML, CSS and Jav
 
 ![imaggggg](https://user-images.githubusercontent.com/96269648/187073219-7d194f46-ad65-4879-9104-a1c6f1fba925.png)
 
-The Live link can be found here:
+The Live link can be found here:  https://leonardo-cardoso-ie.github.io/m2-password-generator/
 
 
 
