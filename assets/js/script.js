@@ -12,3 +12,28 @@ let containerPassword = document.querySelector("#container-password");
  * Characters
  */
 let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@-_$^&?><";
+let newPassword = "";
+
+sizePassword.innerHTML = sliderElement.value;
+
+/**
+ * character count when swiping the bar
+ */
+slider.oninput = function () {
+    sizePassword.innerHTML = this.value;
+}
+
+/**
+ * Function to generate and create password
+ */
+
+function generatePassword() {
+
+    let pass = "";
+
+    for (let i = 0, n = charset.length; i < sliderElement.value; ++i) {
+       /* generating an integer in math floor, generating a random number in math random */
+        pass += charset.charAt(Math.floor(Math.random() * n));
+
+    }
+
